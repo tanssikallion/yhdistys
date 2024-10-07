@@ -11,6 +11,18 @@ body {
     background-repeat: no-repeat; /* Ei toista taustakuvaa */
     background-attachment: fixed; /* Taustakuva pysyy paikallaan, vaikka sivua vieritetään */
     overflow-x: hidden; /* Estää vaakasuoran vierityspalkin */
+    position: relative; /* Tarvitaan pseudo-elementtiä varten */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Musta tummentava kerros, 50% läpinäkyvä */
+    z-index: 1;
 }
 
 /* Otsikot yleisesti*/
