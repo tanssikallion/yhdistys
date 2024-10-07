@@ -28,7 +28,7 @@ h1 {
     font-size: 30px; /* Otsikoiden koko */
     color: #4C4C4C; /* Tekstin väri */
     margin-bottom: 40px; /* Lisää tilaa otsikon ja tekstin väliin */
-    margin-top: 30px; /* Lisää tilaa otsikon yläpuolelle */
+    margin-top: 40px; /* Lisää tilaa otsikon yläpuolelle */
     padding-top: 15px; /* Lisää tilaa otsikon ja yläviivan väliin */
     text-align: center; /* Keskittää kaiken tekstin laatikossa */
     border-top: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon yläpuolelle */
