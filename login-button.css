@@ -1,0 +1,38 @@
+/* Kirjaudu sisään -painikkeen ulkoasu isommilla näytöillä */
+.login {
+    position: absolute;
+    top: 5px; /* Sijoittaa painikkeen yläreunaan */
+    right: 20px; /* Sijoittaa painikkeen oikeaan reunaan */
+    z-index: 200; /* Pidä painike muiden elementtien päällä */
+    display: flex; /* Varmistaa, että painike ja SVG ovat samalla rivillä */
+    align-items: center; /* Keskitetään pystysuunnassa */
+    gap: 10px; /* Lisää tilaa tekstin ja kuvakkeen väliin */
+}
+
+/* Kirjaudu sisään -painikkeen SVG-kuvake */
+.header__button-icon svg {
+    width: 15px; /* Lukon kuvakkeen leveys */
+    height: 15px; /* Lukon kuvakkeen korkeus */
+    vertical-align: middle; /* Kuvake tekstin keskellä */
+    fill: #f5d6e0; /* Kuvakkeen väri */
+}
+
+/* Kirjaudu sisään -painikkeen teksti */
+.header__button a {
+    text-decoration: none; /* Poistaa linkin alleviivauksen */
+    color: #b67c86; /* Määrittää tekstin värin */
+    font-size: 16px; /* Määrittää tekstin koon */
+}
+
+/* Pienemmillä näytöillä piilotetaan Kirjaudu sisään -painike */
+@media (max-width: 768px) {
+    .login {
+        display: none; /* Piilota painike pienillä näytöillä */
+    }
+}
+
+    /* Näytetään Kirjaudu sisään -painike hampurilaisvalikossa, kun valikko on aktiivinen */
+    .off-screen-menu.active .login {
+        display: block; /* Näytetään Kirjaudu sisään -painike, kun valikko on aktiivinen */
+        margin-top: 20px;
+    }

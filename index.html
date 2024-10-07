@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>Tanssikallion päiväkodin vanhempainyhdistys - Etusivu</title>
+<meta charset="UTF-8">
+    <link rel="stylesheet" href="login-button.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="hamburger-menu.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="Yhdistyksen logo.png" alt="Logo" class="header-logo">
+            <h1>Tanssikallion päiväkodin<br>vanhempainyhdistys</h1>
+
+        <!-- Hampurilaisvalikon kuvake -->
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+                <nav class="navbar">
+                <div class="nav-links">
+                    <a href="index.html">Tietoa meistä</a>
+                    <a href="Tapahtumat.html">Tapahtumat</a>
+                    <a href="Yhteystiedot.html">Yhteystiedot</a>
+                </div>
+            </nav>
+
+            <div class="off-screen-menu"> <!-- Off-screen hampurilaisvalikko -->
+                <span class="close-menu">X</span>
+                <ul>
+                    <li><a href="index.html">Tietoa meistä</a></li>
+                    <li><a href="Tapahtumat.html">Tapahtumat</a></li>
+                    <li><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+                    <li><a href="https://drive.google.com/drive/my-drive">Kirjaudu sisään</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="login">
+        <a href="https://drive.google.com/drive/my-drive" class="header__button">
+            <span class="header__button-icon">
+                <!-- Lukon SVG-kuvake tässä -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M12 2C9.243 2 7 4.243 7 7v5H5c-1.654 0-3 1.346-3 3v6c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3v-6c0-1.654-1.346-3-3-3h-2V7c0-2.757-2.243-5-5-5zm3 12h-6v-5c0-1.654 1.346-3 3-3s3 1.346 3 3v5z"/>
+                </svg>
+            </span>
+            Kirjaudu sisään
+        </a>
+    </div>
+     
+    <script>
+        const hamMenu = document.querySelector('.ham-menu');
+        const offScreenMenu = document.querySelector('.off-screen-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        // Hampurilaisvalikon avaaminen
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle('active');
+            offScreenMenu.classList.toggle('active'); // Näytä/piilota valikko klikatessa
+        });
+
+        // Hampurilaisvalikon sulkeminen
+        closeMenu.addEventListener('click', () => {
+            offScreenMenu.classList.remove('active'); // Piilota valikko
+            hamMenu.classList.remove('active'); // Palauta hampurilaiskuvake
+        });
+    </script>
+    
+    <main>
+        <p>Tämä on päiväkotimme vanhempainyhdistyksen sivusto.<br>Yhdistys tekee yhteistyötä päiväkodin kanssa ja järjestää<br>tapahtumia sekä varainkeruuta päiväkodin lasten hyväksi.</p>
+        </p>
+    </p>
+    <div class="content-box">
+        <p><h2>Toimimme yhdessä lasten hyväksi</h2>
+            
+            <h4>Miksi vanhempainyhdistykseen kannattaa liittyä?</h4>
+            <p>Vanhempainyhdistys tekee tärkeää yhteistyötä päiväkodin kanssa järjestäen tapahtumia ja keräten varoja päiväkodin lasten hyväksi. Yhdistyksen toiminta on olennainen osa päiväkodin arkea, ja sen tuella päiväkoti pystyy tarjoamaan lapsille monipuolisempia mahdollisuuksia.</p>
+        
+            <h4>Yhdistyksen panostus lasten hyvinvointiin</h4>
+            <p>Yhdistyksen keräämät varat käytetään lasten hyväksi. Näillä varoilla yhdistys hankkii päiväkodille tarvikkeita ja järjestää toimintaa, jota päiväkoti ei pysty itse rahoittamaan. Kaikki päiväkodin lapset hyötyvät yhdistyksen panostuksesta – oli kyse sitten leikkivälineistä, retkistä tai erityisistä projekteista, joita ilman yhdistyksen apua ei voitaisi toteuttaa.</p>
+        
+            <h4>Tarvitsemme sinua mukaan!</h4>
+            <p>Joka vuosi, kun lapset siirtyvät päiväkodista koulumaailmaan, yhdistyksestä poistuu osaavia jäseniä. Siksi tarvitsemme jatkuvasti uusia innokkaita vanhempia mukaan, jotta toimintamme voi jatkua entistä vahvempana. Teemme yhdistyksessä asiat yhdessä ja jokainen vanhempi saa osallistua oman jaksamisensa mukaan. Pienikin apu on meille tärkeää.</p>
+        
+            <p><strong>Liity mukaan ja tule osaksi tärkeää työtä päiväkodin lasten hyväksi!</strong></p><br>
+
+            <h2>Hallituksen jäsenet kaudella 2024-2025</h2>
+            <p>Heini Åberg, puheenjohtaja<br>
+                Vilma Heino, varapuheenjohtaja<br>
+                Laura Salminen, rahastonhoitaja ja sihteeri<br>
+                Johanna Listala<br>
+                Terhi Kolari<br>
+                Saara<br>
+                Maria Povaljajeff</p>
+            <img src="Kuva_hallituksesta_2024.jpg" alt="Kuva vanhempainyhdistyksestä 2024" class="content-image">
+            <figure class="figure-container">
+                <figcaption class="figure-caption">Vanhempainyhdistyksen hallitus Tanssikallion päiväkodilla
+                </figcaption>
+        </div>
+</main>
+<footer>
+    <div class="footer-left">
+        <p>© Tanssikallion päiväkodin<br>vanhempainyhdistys 2024</p>
+    </div>
+    <div class="footer-center">
+        <a href="https://www.facebook.com/groups/2321399954622910/" target="_blank">
+            <img src="Facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="mailto:pktanssis@gmail.com">
+            <img src="Email.png" alt="Email" class="social-icon">
+        </a>
+    </div>
+</footer>
+</body>
+</html>

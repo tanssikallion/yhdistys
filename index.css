@@ -1,0 +1,86 @@
+/* Sivun yleiset asetukset */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('lapsi_ja_helmitaulu.png'); /* Määritä taustakuva */
+    background-size: cover; /* Skaalaa taustakuva peittämään koko tausta */
+    background-position: center; /* Keskittää taustakuvan */
+    background-repeat: no-repeat; /* Ei toista taustakuvaa */
+    background-attachment: fixed; /* Taustakuva pysyy paikallaan, vaikka sivua vieritetään */
+    overflow-x: hidden; /* Estää vaakasuoran vierityspalkin */
+}
+
+/* Otsikot yleisesti*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700; /* Vahvennetaan otsikot */
+}
+
+/* Toimimme yhdessä lasten hyväksi -otsikon muotoilu */
+.content-box h2 {
+    font-size: 28px; /* Otsikoiden koko */
+    color: #4C4C4C; /* Tekstin väri */
+    margin-bottom: 40px; /* Lisää tilaa otsikon ja tekstin väliin */
+    margin-top: 30px; /* Lisää tilaa otsikon yläpuolelle */
+    padding-top: 15px; /* Lisää tilaa otsikon ja yläviivan väliin */
+    text-align: center; /* Keskittää kaiken tekstin laatikossa */
+    border-top: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon yläpuolelle */
+    border-bottom: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon alapuolelle */
+    width: 60%; /* Viivan leveys 60% laatikosta */
+    margin-left: auto; /* Keskittää viivan */
+    margin-right: auto; /* Keskittää viivan */
+    padding-bottom: 15px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
+}
+
+/* Pienet otsikot leipätekstin seassa */
+h4 {
+    text-align: center;
+}
+
+/* Leipäteksti */
+.content-box p {
+    font-size: 18px; /* Tekstin koko */
+    margin-bottom: 20px; /* Lisää väliä kappaleiden väliin */
+    color: #4C4C4C; /* Tekstin väri */
+    text-align: center; /* Keskittää tekstin */
+}
+
+/* Teksti: Tämä on päiväkotimme vanhempainyhdistyksen sivusto. */
+main { 
+    padding: 20px; 
+    text-align: center;
+    flex-grow: 1;
+    font-size: 22px; /* Suurentaa tekstin kokoa */
+    color: #FFFFFF; /* Tekstin väri */
+    margin-bottom: 20px; /* Lisää tilaa tekstin ja laatikon väliin */
+}
+
+/* Valkoinen läpinäkyvä laatikko */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Valkoinen väri ja 80% läpinäkyvä */
+    padding: 20px; /* Sisäinen marginaali laatikolle */
+    margin: 40px auto; /* Keskittää laatikon sivulle */
+    max-width: 1000px; /* Määritä laatikon leveys */
+    border-radius: 10px; /* Lisää pyöristetyt kulmat */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa laatikon alle */
+    text-align: left; /* Tekstin tasaus vasemmalle */
+    color: #4C4C4C; /* Tumma harmaa teksti */
+}
+
+/* Hallituksen kuva */
+.content-image {
+    width: 70%; /* Skaalaa kuva täyttämään laatikon leveys */
+    height: auto; /* Säilyttää kuvan mittasuhteet */
+    margin: 35px auto; /* Keskittää kuvan vaakasuunnassa ja lisää yläreunaan tilaa */
+    display: block; /* Varmistaa, että kuva käsitellään block-tason elementtinä */
+    border-radius: 10px; /* Pyöristetyt kulmat kuvalle */
+}
+
+/* Kuvatekstin muotoilu */
+figcaption {
+    font-size: 16px; /* Otsikoiden koko */
+    text-align: center;
+    color: #4C4C4C; /* Tumma harmaa teksti */
+}

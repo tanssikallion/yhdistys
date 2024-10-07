@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    justify-content: center; /* Keskittää sisällön vaakasuunnassa */
+    align-items: center; /* Keskittää sisällön pystysuunnassa */
+    padding: 10px 20px;
+    background-color: #979292; /* Footerin taustaväri */
+    color: #fff; /* Tekstin väri */
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    height: 80px; /* Asetetaan kiinteä korkeus footerille */
+}
+
+.footer-left {
+    position: absolute;
+    left: 20px;
+    top: 50%; /* Sijoitetaan keskelle */
+    transform: translateY(-50%); /* Tasataan vertikaalisesti */
+    color: #fff; /* Nimen väri */
+    font-size: 16px; /* Fonttikoko */
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Kuvakkeiden välinen tila */
+}
+
+.social-icon {
+    width: 50px; /* Kuvan leveys */
+    height: auto; /* Automaattinen korkeus suhteessa leveyteen */
+    margin: 0; /* Poistaa marginaalin */
+    padding: 0; /* Poistaa paddingin */
+    vertical-align: middle; /* Pitää kuvakkeet samalla linjalla */
+}
+
+a {
+    color: #FFB6C1; /* Vaalea pinkki linkkien väri */
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.nav-links {
+    text-align: center;
+    display: flex; /* Isolla näytöllä navigointilinkit näkyvät vierekkäin */
+}
+
+.nav-links a {
+    display: inline-block; /* Asettaa linkit vierekkäin */
+    text-decoration: underline; /* Alleviivaa linkit */
+    color: #4C4C4C; /* Linkkien väri */
+    font-size: 20px; /* Fontin koko */
+    padding: 10px 15px; /* Lisää tilaa linkkien ympärille */
+    margin-right: 15px; /* Lisää tilaa linkkien väliin */
+}
+
+/* Tavallinen navigointi näytetään vain isommilla näytöillä */
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex; /* Näytetään tavallinen navigointi isommilla näytöillä */
+        justify-content: center; /* Keskitetään vaakasuunnassa */
+        align-items: center; /* Keskitetään pystysuunnassa */
+        gap: 20px; /* Lisää väliä linkkien väliin */
+    }
+}
+
+/* Piilotetaan tavallinen navigointi pienillä näytöillä */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Piilotetaan navigointi pienillä näytöillä */
+    }
+}
