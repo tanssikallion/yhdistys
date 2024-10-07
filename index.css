@@ -36,7 +36,7 @@ h1 {
     width: 60%; /* Viivan leveys 60% laatikosta */
     margin-left: auto; /* Keskittää viivan */
     margin-right: auto; /* Keskittää viivan */
-    padding-bottom: 15px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
+    padding-bottom: 20px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
 }
 
 h3 {
