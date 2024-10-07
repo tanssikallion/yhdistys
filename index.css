@@ -25,7 +25,7 @@ h1 {
 
 /* Toimimme yhdessä lasten hyväksi -otsikon muotoilu */
 .content-box h2 {
-    font-size: 28px; /* Otsikoiden koko */
+    font-size: 30px; /* Otsikoiden koko */
     color: #4C4C4C; /* Tekstin väri */
     margin-bottom: 40px; /* Lisää tilaa otsikon ja tekstin väliin */
     margin-top: 30px; /* Lisää tilaa otsikon yläpuolelle */
@@ -40,7 +40,7 @@ h1 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 /* Pienet otsikot leipätekstin seassa */
