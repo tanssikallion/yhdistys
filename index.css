@@ -21,7 +21,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 1); /* Musta tummentava kerros, 50% läpinäkyvä */
+    background-color: rgba(0, 0, 0, 0.6); /* Musta tummentava kerros, 50% läpinäkyvä */
     z-index: 1;
 }
 
@@ -76,7 +76,7 @@ main {
 
 /* Valkoinen läpinäkyvä laatikko */
 .content-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Valkoinen väri ja 80% läpinäkyvä */
+    background-color: rgba(255, 255, 255, 0.9); /* Valkoinen väri ja 80% läpinäkyvä */
     padding: 20px; /* Sisäinen marginaali laatikolle */
     margin: 40px auto; /* Keskittää laatikon sivulle */
     max-width: 1000px; /* Määritä laatikon leveys */
