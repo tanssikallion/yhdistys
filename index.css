@@ -21,7 +21,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Musta tummentava kerros, 50% läpinäkyvä */
+    background-color: rgba(0, 0, 0, 1); /* Musta tummentava kerros, 50% läpinäkyvä */
     z-index: 1;
 }
 
