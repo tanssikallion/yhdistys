@@ -11,13 +11,14 @@ footer {
     height: 80px; /* Asetetaan kiinteä korkeus footerille */
 }
 
+/* Yhdistyksen nimi vasemmalla */
 .footer-left {
     position: absolute;
     left: 20px;
     top: 50%; /* Sijoitetaan keskelle */
     transform: translateY(-50%); /* Tasataan vertikaalisesti */
     color: #fff; /* Nimen väri */
-    font-size: 16px; /* Fonttikoko */
+    font-size: 11px; /* Fonttikoko */
 }
 
 .footer-center {
@@ -31,7 +32,6 @@ footer {
     height: auto; /* Automaattinen korkeus suhteessa leveyteen */
     margin: 0; /* Poistaa marginaalin */
     padding: 0; /* Poistaa paddingin */
-    vertical-align: middle; /* Pitää kuvakkeet samalla linjalla */
 }
 
 a {
