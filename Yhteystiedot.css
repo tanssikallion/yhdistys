@@ -1,67 +1,68 @@
 /* Sivun yleiset asetukset */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Quicksand', sans-serif;
-    background-image: url('lapsi_ja_helmitaulu.png'); /* Määritä taustakuva */
-    background-size: cover; /* Skaalaa taustakuva peittämään koko tausta */
-    background-position: center; /* Keskittää taustakuvan */
-    background-repeat: no-repeat; /* Ei toista taustakuvaa */
-    background-attachment: fixed; /* Taustakuva pysyy paikallaan, vaikka sivua vieritetään */
-    overflow-x: hidden; /* Estää vaakasuoran vierityspalkin */
-}
+    margin : 0;
+    padding : 0;
+    font-family : 'Quicksand', sans-serif;
+    background-image : linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("lapsi_ja_helmitaulu.png");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    overflow-x : hidden;
+    }
 
 /* Otsikot yleisesti*/
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700; /* Vahvennetaan otsikot */
-}
+h1, h2 {
+    font-weight : 700;
+    }
 
 /* Teksti: Liity mukaan toimintaan! */
-main { 
-    padding: 20px; 
-    text-align: center;
-    flex-grow: 1;
-    font-size: 22px; /* Suurentaa tekstin kokoa */
-    color: #FFFFFF; /* Tekstin väri */
-    margin-bottom: 20px; /* Lisää tilaa tekstin ja laatikon väliin */
-}
+main {
+    padding : 20px;
+    text-align : center;
+    flex-grow : 1;
+    font-size : 22px;
+    color : #FFFFFF;
+    margin-bottom : 20px;
+    }
 
 /* Ota yhteyttä -otsikon muotoilu */
-.content-box h2 {
-    font-size: 28px; /* Otsikoiden koko */
+.content-box h1 {
+    font-size : 30px;
+    font-weight : 700;
+    color : #b87e88;
+    margin-bottom : 40px;
+    margin-top : 40px;
+    padding-top : 20px;
+    text-align : center;
+    border-top : 1px solid #a09f9f;
+    border-bottom : 1px solid #a09f9f;
+    width : 60%;
+    margin-left : auto;
+    margin-right : auto;
+    padding-bottom : 20px;
+    }
+
+h2 {
+    font-size: 25px;
+    text-align: center; /* Keskittää tekstin */
     color: #4C4C4C; /* Tekstin väri */
-    margin-bottom: 40px; /* Lisää tilaa otsikon ja tekstin väliin */
-    margin-top: 30px; /* Lisää tilaa otsikon yläpuolelle */
-    padding-top: 15px; /* Lisää tilaa otsikon ja yläviivan väliin */
-    text-align: center; /* Keskittää kaiken tekstin laatikossa */
-    border-top: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon yläpuolelle */
-    border-bottom: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon alapuolelle */
-    width: 60%; /* Viivan leveys 60% laatikosta */
-    margin-left: auto; /* Keskittää viivan */
-    margin-right: auto; /* Keskittää viivan */
-    padding-bottom: 15px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
 }
 
 /* Valkoinen läpinäkyvä laatikko */
 .content-box {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    margin: 40px auto;
-    max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Pienet otsikot leipätekstin seassa */
-h4 {
-    text-align: center;
-    color: #4C4C4C; /* Tekstin väri */
-}
+    background-color : rgb(255, 255, 255, 0.8);
+    padding : 20px;
+    margin : 40px auto;
+    max-width : 1000px;
+    border-radius : 10px;
+    box-shadow : 0 4px 10px rgb(0, 0, 0, 0.1);
+    }
 
 /* Leipäteksti */
 .content-box p {
-    font-size: 18px; /* Tekstin koko */
-    margin-bottom: 20px; /* Lisää väliä kappaleiden väliin */
-    color: #4C4C4C; /* Tekstin väri */
-    text-align: center; /* Keskittää tekstin */
-}
+    font-size : 18px;
+    margin-bottom : 20px;
+    color : #4C4C4C;
+    text-align : center;
+    }
