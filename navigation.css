@@ -8,7 +8,7 @@
     text-decoration: underline; /* Alleviivaa linkit */
     color: #4C4C4C; /* Linkkien väri */
     font-size: 20px; /* Fontin koko */
-    padding: 10px 15px; /* Lisää tilaa linkkien ympärille */
+    padding: 5px 15px; /* Lisää tilaa linkkien ympärille */
     margin-right: 15px; /* Lisää tilaa linkkien väliin */
 }
 
