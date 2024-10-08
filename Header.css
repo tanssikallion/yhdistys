@@ -19,20 +19,8 @@ header {
 }
 
 .header-logo {
-    width: 300px; /* Logon leveys*/
+    width: 530px; /* Logon leveys*/
     height: auto; /* Logon korkeus suhteessa leveyteen */
-    margin-bottom: 0px; /* Tilaa logon ja otsikon väliin */
-}
-
-/* Headerin otsikon tyyli */
-h1 {
-    margin-top: 0px; /* Poista ylimääräinen tila otsikon yläpuolelta */
-    font-weight: 700; /* Säädä paksuutta*/
-    color: #b67c86; /* Vain headerin fontin väri */
-}
-
-h2 + h3 {
-    margin-top: 30px; /* Lisää 30px väliä H2- ja H3-otsikoiden väliin */
 }
 
 h3 {
