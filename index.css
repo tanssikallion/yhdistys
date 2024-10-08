@@ -1,102 +1,99 @@
 /* Sivun yleiset asetukset */
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Quicksand', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('lapsi_ja_helmitaulu.png'); /* Määritä taustakuva */
-    background-size: cover; /* Skaalaa taustakuva peittämään koko tausta */
-    background-position: center; /* Keskittää taustakuvan */
-    background-repeat: no-repeat; /* Ei toista taustakuvaa */
-    background-attachment: fixed; /* Taustakuva pysyy paikallaan, vaikka sivua vieritetään */
-    overflow-x: hidden; /* Estää vaakasuoran vierityspalkin */
-    position: relative; /* Tarvitaan pseudo-elementtiä varten */
-}
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 100%;
+    font-family : 'Quicksand', sans-serif;
+    background-image : linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url("lapsi_ja_helmitaulu.png");
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    background-attachment : fixed;
+    overflow-x : hidden;
+    position : relative;
+    }
 
-/* Otsikot yleisesti*/
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700; /* Vahvennetaan otsikot */
-}
+    /* Otsikot yleisesti*/
+    h1, h2, h3 {
+    font-weight : 700;
+    }
 
-h1 {
-    font-size: 33px;
-}
+    /* Toimimme yhdessä lasten hyväksi -otsikon muotoilu */
+    .content-box h1 {
+    font-size : 30px;
+    color : #b87e88;
+    margin-bottom : 40px;
+    margin-top : 40px;
+    padding-top : 20px;
+    text-align : center;
+    border-top : 1px solid #a09f9f;
+    border-bottom : 1px solid #a09f9f;
+    width : 60%;
+    margin-left : auto;
+    margin-right : auto;
+    padding-bottom : 20px;
+    }
 
-/* Toimimme yhdessä lasten hyväksi -otsikon muotoilu */
-.content-box h2 {
-    font-size: 30px; /* Otsikoiden koko */
-    color: #4C4C4C; /* Tekstin väri */
-    margin-bottom: 40px; /* Lisää tilaa otsikon ja tekstin väliin */
-    margin-top: 40px; /* Lisää tilaa otsikon yläpuolelle */
-    padding-top: 20px; /* Lisää tilaa otsikon ja yläviivan väliin */
-    text-align: center; /* Keskittää kaiken tekstin laatikossa */
-    border-top: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon yläpuolelle */
-    border-bottom: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon alapuolelle */
-    width: 60%; /* Viivan leveys 60% laatikosta */
-    margin-left: auto; /* Keskittää viivan */
-    margin-right: auto; /* Keskittää viivan */
-    padding-bottom: 20px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
-}
+    h2 {
+    font-size : 25px;
+    text-align : center;
+    }
 
-h3 {
-    font-size: 25px;
-}
+    h3 {
+    text-align : center;
+    font-size : 20px;
+    border-top : 1px solid #a09f9f;
+    border-bottom : 1px solid #a09f9f;
+    width : 60%;
+    margin-left : auto;
+    margin-right : auto;
+    padding-bottom : 15px;
+    padding-top : 15px;
+    }
 
-/* Pienet otsikot leipätekstin seassa */
-h4 {
-    text-align: center;
-    font-size: 20px;
-    border-top: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon yläpuolelle */
-    border-bottom: 1px solid #a09f9f; /* Kevyt vaaleanharmaa viiva otsikon alapuolelle */
-    width: 60%; /* Viivan leveys 60% laatikosta */
-    margin-left: auto; /* Keskittää viivan */
-    margin-right: auto; /* Keskittää viivan */
-    padding-bottom: 15px; /* Lisää tilaa viivan ja seuraavan sisällön väliin */
-}
+    /* Leipäteksti */
+    .content-box p {
+    font-size : 18px;
+    margin-bottom : 20px;
+    color : #4C4C4C;
+    text-align : center;
+    }
 
-/* Leipäteksti */
-.content-box p {
-    font-size: 18px; /* Tekstin koko */
-    margin-bottom: 20px; /* Lisää väliä kappaleiden väliin */
-    color: #4C4C4C; /* Tekstin väri */
-    text-align: center; /* Keskittää tekstin */
-}
+    /* Teksti: Tämä on päiväkotimme vanhempainyhdistyksen sivusto. */
+    main {
+    padding : 20px;
+    text-align : center;
+    flex-grow : 1;
+    font-size : 22px;
+    color : #FFFFFF;
+    margin-bottom : 20px;
+    }
 
-/* Teksti: Tämä on päiväkotimme vanhempainyhdistyksen sivusto. */
-main { 
-    padding: 20px; 
-    text-align: center;
-    flex-grow: 1;
-    font-size: 22px; /* Suurentaa tekstin kokoa */
-    color: #FFFFFF; /* Tekstin väri */
-    margin-bottom: 20px; /* Lisää tilaa tekstin ja laatikon väliin */
-}
+    /* Valkoinen läpinäkyvä laatikko */
+    .content-box {
+    background-color : rgb(255, 255, 255, 0.9);
+    padding : 20px;
+    margin : 40px auto;
+    max-width : 1000px;
+    border-radius : 10px;
+    box-shadow : 0 4px 10px rgb(0, 0, 0, 0.1);
+    text-align : left;
+    color : #4C4C4C;
+    }
 
-/* Valkoinen läpinäkyvä laatikko */
-.content-box {
-    background-color: rgba(255, 255, 255, 0.9); /* Valkoinen väri ja 80% läpinäkyvä */
-    padding: 20px; /* Sisäinen marginaali laatikolle */
-    margin: 40px auto; /* Keskittää laatikon sivulle */
-    max-width: 1000px; /* Määritä laatikon leveys */
-    border-radius: 10px; /* Lisää pyöristetyt kulmat */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Hieman varjoa laatikon alle */
-    text-align: left; /* Tekstin tasaus vasemmalle */
-    color: #4C4C4C; /* Tumma harmaa teksti */
-}
+    /* Hallituksen kuva */
+    .content-image {
+    width : 70%;
+    height : auto;
+    margin : 35px auto;
+    display : block;
+    border-radius : 10px;
+    }
 
-/* Hallituksen kuva */
-.content-image {
-    width: 70%; /* Skaalaa kuva täyttämään laatikon leveys */
-    height: auto; /* Säilyttää kuvan mittasuhteet */
-    margin: 35px auto; /* Keskittää kuvan vaakasuunnassa ja lisää yläreunaan tilaa */
-    display: block; /* Varmistaa, että kuva käsitellään block-tason elementtinä */
-    border-radius: 10px; /* Pyöristetyt kulmat kuvalle */
-}
-
-/* Kuvatekstin muotoilu */
-figcaption {
-    font-size: 16px; /* Otsikoiden koko */
-    text-align: center;
-    color: #4C4C4C; /* Tumma harmaa teksti */
-}
+    /* Kuvatekstin muotoilu */
+    figcaption {
+    font-size : 16px;
+    text-align : center;
+    color : #4C4C4C;
+    }
