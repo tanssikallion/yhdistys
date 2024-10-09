@@ -16,8 +16,8 @@
         font-size: 3rem;
         transition: .3s ease;
         font-size: 1.5rem; /* Muokkaa tätä kokoa haluamaksesi */
-        padding-bottom: 50px; /* Lisätään tilaa valikon sisällön loppuun */
-        padding-top: 51px;
+        padding-bottom: 25px; /* Lisätään tilaa valikon sisällön loppuun */
+        padding-top: 26px;
         z-index: 1000;
     }
 
