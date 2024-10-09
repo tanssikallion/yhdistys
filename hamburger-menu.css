@@ -56,7 +56,7 @@
         width: 30px;
         height: 30px;
         position: absolute; /* Sijoitetaan suhteessa sisältöön */
-        top: 310px; /* Voit säätää tämän arvoa, jos haluat siirtää valikkoa ylös tai alas */
+        top: 260px; /* Voit säätää tämän arvoa, jos haluat siirtää valikkoa ylös tai alas */
         left: 50%; /* Keskitetään vaakasuunnassa */
         transform: translateX(-50%); /* Keskitetään vaakasuunnassa */
         z-index: 100; /* Pidetään hampurilaisvalikko muiden elementtien päällä */
