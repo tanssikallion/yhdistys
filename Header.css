@@ -19,7 +19,7 @@ header {
 }
  
 .header-logo {
-    width: 530px; /* Logon leveys*/
+    width: 490px; /* Logon leveys*/
     height: auto; /* Logon korkeus suhteessa leveyteen */
 }
  
