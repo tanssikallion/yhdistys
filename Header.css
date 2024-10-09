@@ -26,12 +26,12 @@ header {
 /* Media query pienille näytöille */
 @media (max-width: 768px) {
     .header-logo {
-        width: 80%; /* Skaalaa logo 80% leveydeksi näytöstä */
+        width: 85%; /* Skaalaa logo 80% leveydeksi näytöstä */
     }
 }
 
 @media (max-width: 480px) {
     .header-logo {
-        width: 70%; /* Skaalaa logo pienemmäksi vielä pienemmillä näytöillä */
+        width: 85%; /* Skaalaa logo pienemmäksi vielä pienemmillä näytöillä */
     }
 }
