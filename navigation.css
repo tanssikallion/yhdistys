@@ -1,6 +1,7 @@
 .nav-links {
     text-align: center;
     display: flex; /* Isolla näytöllä navigointilinkit näkyvät vierekkäin */
+    max-width: 100%
 }
 
 .nav-links a {
