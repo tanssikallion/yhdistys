@@ -21,6 +21,7 @@ header {
 .header-logo {
     width: 490px; /* Logon leveys*/
     height: auto; /* Logon korkeus suhteessa leveyteen */
+    max-width: 100%
 }
  
 h3 {
@@ -33,4 +34,5 @@ h3 {
     height: auto; /* Kuva skaalautuu suhteessa leveyteen */
     max-height: 100%; /* Varmistaa, ettei kuva veny liian korkeaksi */
     object-fit: cover; /* Varmistaa, että kuva täyttää tilan ja skaalautuu oikein */
+    max-width: 100%
 } 
