@@ -80,3 +80,23 @@ td {
     vertical-align: top;
 }
 
+@media (max-width: 768px) {
+    table, th, td {
+        display: block; /* Muuttaa taulukon elementit lohkomuotoisiksi */
+        width: 100%; /* Skaalaa lohkot täyteen leveyteen */
+    }
+
+    th, td {
+        border: none; /* Poista reunat yksittäisistä soluista */
+        padding: 10px; /* Lisää hieman tilaa solujen ympärille */
+    }
+
+    tr {
+        display: flex;
+        flex-direction: column; /* Pystysuuntainen järjestys */
+        margin-bottom: 15px; /* Tilaa taulukon "rivi" -lohkojen väliin */
+        border: 1px solid #5f5f5f; /* Ympäröi jokainen "rivi" reunalla */
+    }
+}
+
+
