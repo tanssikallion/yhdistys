@@ -80,4 +80,24 @@ td {
     vertical-align: top;
 }
 
+.month-plan {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.month {
+    flex: 1 1 30%;
+    background-color: #f5d6e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .month {
+        flex: 1 1 100%; /* Jokainen kuukausi täyttää koko rivin leveydeltä */
+    }
+}
+
+
 
