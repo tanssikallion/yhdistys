@@ -1,46 +1,34 @@
-/* Header-tyylit */
 header {
-    margin-top: 30px;
     position: relative;
-    background-color: #FFD9D9;
+    background-color: #FFD9D9; /* Vaaleanpunainen header */
     padding: 20px;
     width: 100%;
+    border-radius: 0px;
     text-align: center;
     box-sizing: border-box;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 30px;
+    height: 350px; /* Lisää manuaalisesti korkeus tarkistaaksesi */
 }
-
-/* Hampurilaisvalikon tyylit */
-.ham-menu {
-    position: absolute;
-    bottom: 20px; /* Sijoitetaan hampurilaisvalikko alareunaan */
-    left: 50%;
-    transform: translateX(-50%); /* Keskittää hampurilaisvalikon */
-    cursor: pointer;
-    z-index: 100;
+ 
+.header-container {
+    flex-direction: column; /* Asetetaan otsikko ja navigointi pystysuunnassa */
+    justify-content: space-between; /* Asettaa tilaa linkkien ja Kirjaudu sisään -painikkeen välille */
+    align-items: center; /* Keskittää pystysuunnassa sisällön */
 }
-
-/* Logon tyylit */
+ 
 .header-logo {
-    width: 430px;
-    height: auto;
-    transition: transform 0.3s ease;
+    width: 530px; /* Logon leveys*/
+    height: auto; /* Logon korkeus suhteessa leveyteen */
 }
-
-/* Responsiiviset tyylit */
-@media (max-width: 768px) {
-    header {
-        height: auto;
-        padding-bottom: 60px; /* Lisää tilaa hampurilaisvalikolle */
-    }
+ 
+h3 {
+    text-align: center; /* Keskittää kaikki h3-otsikot */
 }
-
-@media (max-width: 480px) {
-    .header-logo {
-        transform: translateX(-10%); /* Siirretään logoa hienovaraisesti vasemmalle */
-    }
-}
+ 
+/* Päiväkodin logo */
+.header-image {
+    width: 90%; /* Skaalaa kuvan leveydeksi 100% */
+    height: auto; /* Kuva skaalautuu suhteessa leveyteen */
+    max-height: 100%; /* Varmistaa, ettei kuva veny liian korkeaksi */
+    object-fit: cover; /* Varmistaa, että kuva täyttää tilan ja skaalautuu oikein */
+} 
