@@ -16,6 +16,12 @@ h1, h2, h3 {
     font-weight : 700;
     }
 
+h2 {
+    font-size : 25px;
+    text-align : center;
+    color: #4C4C4C;
+    }
+
 /* Teksti: Tämä on päiväkotimme vanhempainyhdistyksen sivusto. */
 main { 
     padding: 20px; 
