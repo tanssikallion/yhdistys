@@ -130,4 +130,5 @@
 
 .off-screen-menu .login {
     display: none; /* Piilotetaan painike hampurilaisvalikosta isommilla näytöillä */
+    max-width: 100%;
 }
