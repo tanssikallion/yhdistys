@@ -82,7 +82,7 @@ th, td {
 
 /* Kuukausien nimet kalenterissa ja tausta */
 th {
-    background-color: #f5d6e0;
+    background-color: #FFD9D9;
     font-size: 18px;
     color: #4C4C4C;
 }
@@ -101,7 +101,7 @@ td {
 
 .month {
     flex: 1 1 30%;
-    background-color: #f5d6e0;
+    background-color: #FFD9D9;
     padding: 10px;
     border-radius: 5px;
 }
