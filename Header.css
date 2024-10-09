@@ -1,3 +1,4 @@
+/* Header-tyylit */
 header {
     position: relative;
     background-color: #FFD9D9; /* Vaaleanpunainen header */
@@ -7,28 +8,30 @@ header {
     text-align: center;
     box-sizing: border-box;
     margin-top: 30px;
-    height: 350px; /* Lisää manuaalisesti korkeus tarkistaaksesi */
+    height: 350px;
 }
- 
+
 .header-container {
+    display: flex;
     flex-direction: column; /* Asetetaan otsikko ja navigointi pystysuunnassa */
     justify-content: space-between; /* Asettaa tilaa linkkien ja Kirjaudu sisään -painikkeen välille */
     align-items: center; /* Keskittää pystysuunnassa sisällön */
 }
- 
+
 .header-logo {
-    width: 530px; /* Logon leveys*/
-    height: auto; /* Logon korkeus suhteessa leveyteen */
+    width: 530px;
+    height: auto;
 }
- 
-h3 {
-    text-align: center; /* Keskittää kaikki h3-otsikot */
+
+/* Media query pienille näytöille */
+@media (max-width: 768px) {
+    .header-logo {
+        width: 80%; /* Skaalaa logo 80% leveydeksi näytöstä */
+    }
 }
- 
-/* Päiväkodin logo */
-.header-image {
-    width: 90%; /* Skaalaa kuvan leveydeksi 100% */
-    height: auto; /* Kuva skaalautuu suhteessa leveyteen */
-    max-height: 100%; /* Varmistaa, ettei kuva veny liian korkeaksi */
-    object-fit: cover; /* Varmistaa, että kuva täyttää tilan ja skaalautuu oikein */
-} 
+
+@media (max-width: 480px) {
+    .header-logo {
+        width: 70%; /* Skaalaa logo pienemmäksi vielä pienemmillä näytöillä */
+    }
+}
