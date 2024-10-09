@@ -1,4 +1,3 @@
-/* Footerin yleiset tyylit */
 footer {
     display: flex;
     justify-content: center; /* Keskittää sisällön vaakasuunnassa */
@@ -11,7 +10,7 @@ footer {
     position: relative;
     height: 80px; /* Asetetaan kiinteä korkeus footerille */
 }
-
+ 
 /* Yhdistyksen nimi vasemmalla */
 .footer-left {
     position: absolute;
@@ -19,40 +18,23 @@ footer {
     top: 50%; /* Sijoitetaan keskelle */
     transform: translateY(-50%); /* Tasataan vertikaalisesti */
     color: #fff; /* Nimen väri */
-    font-size: 12px; /* Fonttikoko */
-    text-align: left; /* Varmistaa, että teksti on vasemmalle tasattu */
-    line-height: 1.2; /* Lisää riviväliä */
-    max-width: 150px; /* Voit säätää maksimileveyden tarpeen mukaan */
+    font-size: 11px; /* Fonttikoko */
 }
-
-/* Keskitetyt kuvakkeet */
+ 
 .footer-center {
     display: flex;
     justify-content: center;
     gap: 10px; /* Kuvakkeiden välinen tila */
 }
-
-/* Sosiaalisen median kuvakkeet */
+ 
 .social-icon {
     width: 50px; /* Kuvan leveys */
     height: auto; /* Automaattinen korkeus suhteessa leveyteen */
     margin: 0; /* Poistaa marginaalin */
     padding: 0; /* Poistaa paddingin */
 }
-
-/* Linkkien väri */
+ 
 a {
     color: #FFB6C1; /* Vaalea pinkki linkkien väri */
     text-decoration: none;
-}
-
-/* Media query pienille näytöille */
-@media (max-width: 480px) {
-    .footer-left {
-        text-align: center;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%; /* Varmistaa, että teksti mahtuu kokonaan */
-        max-width: 100%; /* Varmistaa, että teksti mahtuu kokonaan */
-    }
 }
