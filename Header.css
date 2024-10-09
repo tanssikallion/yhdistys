@@ -41,6 +41,6 @@ header {
 
 @media (max-width: 480px) {
     .header-logo {
-        transform: translateX(-10%); /* Siirretään logoa vasemmalle */
+        transform: translateX(-10%); /* Siirretään logoa hienovaraisesti vasemmalle */
     }
 }
