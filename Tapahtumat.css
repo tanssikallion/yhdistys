@@ -11,6 +11,11 @@ body {
     overflow-x: hidden; /* Estää vaakasuoran vierityspalkin */
 }
 
+/* Otsikot yleisesti*/
+h1, h2, h3 {
+    font-weight : 700;
+    }
+
 /* Teksti: Tämä on päiväkotimme vanhempainyhdistyksen sivusto. */
 main { 
     padding: 20px; 
