@@ -3,12 +3,11 @@ footer {
     justify-content: center; /* Keskittää sisällön vaakasuunnassa */
     align-items: center; /* Keskittää sisällön pystysuunnassa */
     padding: 10px 20px;
-    background-color: ##c4bbbb; /* Footerin taustaväri */
-    color: #fff; /* Tekstin väri */
+    background-color: #c4bbbb; /* Footerin taustaväri */
     width: 100%;
     box-sizing: border-box;
     position: relative;
-    height: 80px; /* Asetetaan kiinteä korkeus footerille */
+    height: 90px; /* Asetetaan kiinteä korkeus footerille */
 }
  
 /* Yhdistyksen nimi vasemmalla */
@@ -17,8 +16,9 @@ footer {
     left: 20px;
     top: 50%; /* Sijoitetaan keskelle */
     transform: translateY(-50%); /* Tasataan vertikaalisesti */
-    color: ##0a0a0a; /* Nimen väri */
-    font-size: 11px; /* Fonttikoko */
+    color: #0a0a0a; /* Nimen väri */
+    font-size: 12px; /* Fonttikoko */
+    font-weight: bold; /* Lihavoi tekstin */
 }
  
 .footer-center {
