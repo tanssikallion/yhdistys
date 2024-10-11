@@ -3,7 +3,7 @@ footer {
     justify-content: center; /* Keskittää sisällön vaakasuunnassa */
     align-items: center; /* Keskittää sisällön pystysuunnassa */
     padding: 10px 20px;
-    background-color: #979292; /* Footerin taustaväri */
+    background-color: ##c4bbbb; /* Footerin taustaväri */
     color: #fff; /* Tekstin väri */
     width: 100%;
     box-sizing: border-box;
