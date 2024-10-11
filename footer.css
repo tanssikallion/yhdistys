@@ -17,7 +17,7 @@ footer {
     left: 20px;
     top: 50%; /* Sijoitetaan keskelle */
     transform: translateY(-50%); /* Tasataan vertikaalisesti */
-    color: #fff; /* Nimen väri */
+    color: ##0a0a0a; /* Nimen väri */
     font-size: 11px; /* Fonttikoko */
 }
  
